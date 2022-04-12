@@ -1,0 +1,34 @@
+.margin-bottom-15 {
+    margin-bottom: 15px;
+  }
+  
+  .profiledata {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+  }
+  
+  .profiledata td,
+  .profiledata th {
+    border: 1px solid rgb(197, 189, 189);
+    padding: 8px;
+  }
+  
+  .profiledata tr:nth-child(even) {
+    background-color: #d1c6c6;
+  }
+  
+  .profiledata tr:hover {
+    background-color: rgb(197, 189, 189);
+  }
+  
+  .profiledata th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4150d8;
+    color: white;
+  }
+  
